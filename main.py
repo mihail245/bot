@@ -37,9 +37,9 @@ logger = logging.getLogger(__name__)
 # Текущий токен 8024802229:AAHEknWnyIkcCRVBufuyKvZK68n0MUvJKtQ больше НЕ РАБОТАЕТ
 # и был скомпрометирован. Получите новый!
 
-BOT_TOKEN = "8024802229:AAHEknWnyIkcCRVBufuyKvZK68n0MUvJKtQ"
+BOT_TOKEN = "8024802229:AAHvG8NHvI431Nrdh9iR6PAUdwUC-pUGh7o"
 
-if BOT_TOKEN == "8024802229:AAHEknWnyIkcCRVBufuyKvZK68n0MUvJKtQ":
+if BOT_TOKEN == "8024802229:AAHvG8NHvI431Nrdh9iR6PAUdwUC-pUGh7o":
     logger.error("ТОКЕН НЕ УСТАНОВЛЕН! Получите новый токен в @BotFather")
     raise ValueError("Токен бота не установлен!")
 
