@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: circle-bot
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && apt-get update && apt-get install -y ffmpeg"
+    startCommand: "python bot.py"
+    envVars:
+      - key: 8417193861:AAEkWQX8XhPQIEnS4he_81AHdxxq2JJD1b4
+        sync: false
